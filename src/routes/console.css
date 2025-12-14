@@ -1,0 +1,232 @@
+/* Console Terminal Styles - Pure CSS */
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
+
+.console {
+  min-height: 100vh;
+  background-color: #1a1a1a;
+  padding: 20px 30px;
+  box-sizing: border-box;
+  overflow-x: auto;
+}
+
+.console-content {
+  font-family: 'JetBrains Mono', 'Consolas', 'Monaco', monospace;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #b0b0b0;
+  max-width: 1200px;
+  animation: fadeIn 0.5s ease-out;
+}
+
+.console-content p {
+  margin: 0;
+  padding: 2px 0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* Text Colors */
+.system {
+  color: #888888;
+}
+
+.divider {
+  color: #555555;
+}
+
+.session {
+  color: #c9a227;
+}
+
+.boot,
+.load {
+  color: #888888;
+}
+
+.separator {
+  color: #444444;
+}
+
+.info {
+  color: #ffffff;
+}
+
+.quest-complete {
+  color: #ffffff;
+}
+
+.zone {
+  color: #ffffff;
+}
+
+.faction {
+  color: #ffffff;
+}
+
+.dialogue-fail {
+  color: #ffffff;
+}
+
+/* Tag colors (timestamps and labels) */
+.tag {
+  color: #4ec860;
+}
+
+.info .tag {
+  color: #4ec860;
+}
+
+.quest-complete .tag {
+  color: #4db8cc;
+}
+
+.zone .tag {
+  color: #4db8cc;
+}
+
+.faction .tag {
+  color: #c678dd;
+}
+
+.dialogue-fail .tag {
+  color: #e06c75;
+}
+
+.quest {
+  color: #98c379;
+}
+
+/* Highlight classes */
+.highlight {
+  color: #c9a227;
+}
+
+.highlight-cyan {
+  color: #56b6c2;
+}
+
+.item {
+  color: #e5c07b;
+}
+
+.location {
+  color: #61afef;
+}
+
+.npc {
+  color: #e5c07b;
+}
+
+.positive {
+  color: #98c379;
+}
+
+.negative {
+  color: #e06c75;
+}
+
+/* Blinking cursor */
+.cursor-line {
+  margin-top: 10px !important;
+}
+
+.cursor {
+  color: #4ec860;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Typewriter effect */
+.typewriter {
+  animation: typeIn 0.15s ease-out;
+}
+
+@keyframes typeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Skip button */
+.skip-button {
+  position: fixed;
+  top: 20px;
+  right: 30px;
+  background: transparent;
+  border: 1px solid #4ec860;
+  color: #4ec860;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  padding: 8px 16px;
+  cursor: pointer;
+  z-index: 1001;
+  transition: all 0.2s ease;
+}
+
+.skip-button:hover {
+  background: #4ec860;
+  color: #1a1a1a;
+  box-shadow: 0 0 15px rgba(78, 200, 96, 0.5);
+}
+
+/* Scanline effect (subtle) */
+.console::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: repeating-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.1) 0px,
+    rgba(0, 0, 0, 0.1) 1px,
+    transparent 1px,
+    transparent 2px
+  );
+  pointer-events: none;
+  z-index: 1000;
+}
+
+/* Glow effect on text hover */
+.console-content p:hover {
+  text-shadow: 0 0 8px currentColor;
+  transition: text-shadow 0.2s ease;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .console {
+    padding: 15px;
+  }
+  
+  .console-content {
+    font-size: 12px;
+  }
+}
