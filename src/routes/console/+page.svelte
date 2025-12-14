@@ -1,7 +1,6 @@
 <script>
 	import { onMount } from 'svelte';
 	import '/src/routes/console.css';
-	import console from '$lib/components/consoleEdit.svelte';
 
 const lines = [
 	{ type: 'system', content: '[SYSTEM] Инициализация журнала событий симуляции...' },
