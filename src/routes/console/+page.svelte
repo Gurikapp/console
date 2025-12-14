@@ -10,7 +10,7 @@ const lines = [
 	{ type: 'session', content: 'ДАТА НА СЕРВЕРЕ: 31.10.2025' },
 	{
 		type: 'boot',
-		content: '[BOOT] Запуск сервера SERVER_ONE.'
+		content: '[BOOT] Запуск сервера SIMULATION_BETA.'
 	},
 	{ type: 'load', content: '[LOAD] Загружен сценарий: 0 прохождение.' },
 	{ type: 'separator', content: '--------------------------------------------------------------------' },
