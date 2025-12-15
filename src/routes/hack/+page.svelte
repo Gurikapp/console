@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>HACKER PANEL</title>
+</svelte:head>
+
 <script>
 	import { onMount } from 'svelte';
 

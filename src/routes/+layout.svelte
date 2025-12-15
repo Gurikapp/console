@@ -2,10 +2,10 @@
 
 <style>
 	* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
 	section {
 		min-height: 100vh;
 		background-color: #1a1a1a;

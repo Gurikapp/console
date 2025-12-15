@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Game Simulation Console</title>
+</svelte:head>
+
 <script>
 	import { onMount } from 'svelte';
     import { goto } from '$app/navigation';
@@ -57,7 +61,6 @@
 
 "[PLAYER] Registering entity: Эд",
 "[PLAYER:Эд] Character sheet loaded",
-"[PLAYER:Эд] Inventory scanned",
 "[PLAYER:Эд] List of cliches calibrated",
 "[PLAYER:Эд] Chaos factor elevated",
 
@@ -69,13 +72,11 @@
 
 "[PLAYER] Registering entity: Зереф",
 "[PLAYER:Зереф] Character sheet loaded",
-"[PLAYER:Зереф] Inventory scanned",
 "[PLAYER:Зереф] List of cliches calibrated",
 "[PLAYER:Зереф] Uncertainty is heightened",
 
 "[PLAYER] Registering entity: Сыр",
 "[PLAYER:Сыр] Character sheet loaded",
-"[PLAYER:Сыр] Inventory scanned",
 "[PLAYER:Сыр] Improvised cliche detected",
 "[PLAYER:Сыр] Chaos factor elevated",
 
@@ -87,7 +88,7 @@
 "[QUEST] System intervention allowed",
 
 "[AUDIO] War camp ambience loaded",
-"[AUDIO] Distant sounds of void cached",
+"[AUDIO] Distant sounds of VOID cached",
 
 "[SYS] Saving state snapshot",
 "[SYS] Simulation integrity: YET STABLE",
@@ -148,7 +149,7 @@
 	finished = true;
 
 	setTimeout(() => {
-		goto('/console');
+		goto('/logs');
 	}, 1500);
 }
 

@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Game Simulation Logs</title>
+</svelte:head>
+
 <script>
 	import { onMount } from 'svelte';
 	import '/src/routes/console.css';
