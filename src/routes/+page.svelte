@@ -18,37 +18,39 @@
 	let time = 1;
 
 	const output = [
-		"[SYS] Arcane Simulation Core v3.7.12 loading...",
+		"[SYS] Game Simulation Core v3.7.12 loading...",
 "[SYS] Reality checksum verified",
 "[SYS] Initializing Mythical Physics Engine",
 "[SYS] Binding narrative threads...",
 "[SYS] Dice entropy source: TRUE_RANDOM",
 "[SYS] Fate matrix seeded",
 
-"[WORLD] Loading campaign module: Forgotten Realms",
+"[SERVER] SERVER_ONE and SERVER_TWO are loaded.",
+
+"[WORLD] Loading campaign module: Count to ten",
 "[WORLD] Applying world modifiers",
-"[WORLD] Timeflow set to: VARIABLE",
-"[WORLD] Morality system: ENABLED",
-"[WORLD] Consequences: PERMANENT",
+"[WORLD] Timeflow set to: CONSTANT",
+"[WORLD] Morality system: DISABLED",
+"[WORLD] Consequences: TEMPORARY",
 
 "[MAP] Generating overworld topology",
 "[MAP] Terrain layers loaded",
-"[MAP] Dungeon instances allocated",
+"[MAP] Secret paths allocated",
 "[MAP] Fog of War enabled",
 
-"[NPC] Spawning non-player entities",
+"[NPC] Spawning non-player characters",
 "[NPC] AI behavior trees compiled",
 "[NPC] Dialogue matrices linked",
 
-"[RULES] Initializing D&D ruleset",
-"[RULES] Advantage / Disadvantage system online",
-"[RULES] Critical hit tables loaded",
+"[RULES] Initializing RISUS ruleset",
+"[RULES] Rules of the world have been loaded.",
+"[RULES] The system's points math has been calculated",
 "[RULES] Death saving throws armed",
 
 "[MAGIC] Weave synchronization in progress",
-"[MAGIC] Spell slots indexed",
-"[MAGIC] Wild magic probability: NON-ZERO",
-"[MAGIC] Counterspell listeners active",
+"[MAGIC] Spell slots are disabled",
+"[MAGIC] Magic schools are disabled",
+"[MAGIC] Ballestina's magic is absolute",
 
 "[PARTY] Initializing player party",
 "[PARTY] Party size detected: 4",
@@ -56,25 +58,25 @@
 "[PLAYER] Registering entity: Эд",
 "[PLAYER:Эд] Character sheet loaded",
 "[PLAYER:Эд] Inventory scanned",
-"[PLAYER:Эд] Spellbook indexed",
-"[PLAYER:Эд] Hit points synchronized",
+"[PLAYER:Эд] List of cliches calibrated",
+"[PLAYER:Эд] Chaos factor elevated",
 
 "[PLAYER] Registering entity: Рин",
 "[PLAYER:Рин] Character sheet loaded",
 "[PLAYER:Рин] Inventory scanned",
-"[PLAYER:Рин] Spell slots calibrated",
-"[PLAYER:Рин] Passive perception calculated",
+"[PLAYER:Рин] List of cliches calibrated",
+"[PLAYER:Рин] The voice of reason has been found",
 
 "[PLAYER] Registering entity: Зереф",
 "[PLAYER:Зереф] Character sheet loaded",
 "[PLAYER:Зереф] Inventory scanned",
-"[PLAYER:Зереф] Arcane focus attuned",
-"[PLAYER:Зереф] Mana flow stabilized",
+"[PLAYER:Зереф] List of cliches calibrated",
+"[PLAYER:Зереф] Uncertainty is heightened",
 
 "[PLAYER] Registering entity: Сыр",
 "[PLAYER:Сыр] Character sheet loaded",
 "[PLAYER:Сыр] Inventory scanned",
-"[PLAYER:Сыр] Improvised weapons detected",
+"[PLAYER:Сыр] Improvised cliche detected",
 "[PLAYER:Сыр] Chaos factor elevated",
 
 "[PARTY] Party bonds established",
@@ -82,17 +84,17 @@
 
 "[QUEST] Initial quest hooks generated",
 "[QUEST] Unresolved plot threads detected",
-"[QUEST] DM intervention allowed",
+"[QUEST] System intervention allowed",
 
-"[AUDIO] Tavern ambience loaded",
-"[AUDIO] Distant dragon sounds cached",
+"[AUDIO] War camp ambience loaded",
+"[AUDIO] Distant sounds of void cached",
 
 "[SYS] Saving state snapshot",
-"[SYS] Simulation integrity: STABLE",
+"[SYS] Simulation integrity: YET STABLE",
 "[SYS] All systems nominal",
 
 "---",
-"Simulation ready.",
+"Game's simulation ready.",
 		""
 	];
 

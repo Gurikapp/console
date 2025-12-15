@@ -230,3 +230,23 @@
     font-size: 12px;
   }
 }
+
+.console-text {
+  color: #4ec860; /* стартовый зелёный */
+  font-family: monospace;
+  white-space: pre;
+  animation: consoleGlow 3s ease-in-out infinite;
+}
+
+@keyframes consoleGlow {
+  0% {
+    color: #e06c75;
+  }
+  50% {
+    color: #c9a227;
+  }
+  100% {
+    color: #56b6c2;
+  }
+}
+

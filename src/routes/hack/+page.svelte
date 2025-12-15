@@ -58,7 +58,7 @@
 					} else if (cmd === 'clear') {
 						consoleOutput.innerHTML = '';
 					} else if (cmd === 'cheese') {
-						this.log('Игрок Сыр итак зачизил всю игру, не будет тебе сыра!');
+						this.log('Игрок Сыр и так зачизил всю игру, не будет тебе сыра!');
 					} else if (cmd === 'ballestine') {
 						this.log('Will kill you anyway');
 					} else {
